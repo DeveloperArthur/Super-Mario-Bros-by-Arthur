@@ -1,0 +1,38 @@
+<html>
+
+<head>
+<style>
+</style>
+</head>
+
+<body align=center>
+<h3>Super Mario Bros by Arthur</h3>
+<br><br><br>
+<img id="mario" src="img/mario%20parado.png">	
+<br><br>
+<button onClick="andar()">Andar</button>
+<button onclick="abaixar()">Abaixar</button>
+<button onclick="pular()">Pular</button>
+<button onClick="parar()">Ficar parado</button>
+
+<script>
+function andar(){
+document.getElementById("mario").src = "img/mario%20andando.gif";
+}
+
+function parar(){
+document.getElementById("mario").src = "img/mario%20parado.png";
+}
+
+function abaixar(){
+document.getElementById("mario").src = "img/mario%20abaixado.png";
+}
+
+function pular(){
+document.getElementById("mario").src = "img/mario%20pulando.gif";
+}
+</script>
+
+</body>
+
+</html>
